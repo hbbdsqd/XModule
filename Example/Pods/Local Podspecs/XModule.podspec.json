@@ -1,0 +1,22 @@
+{
+  "name": "XModule",
+  "version": "0.1.0",
+  "summary": "A short description of XModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/苏秋东/XModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "苏秋东": "suqiudong@fltrp.com"
+  },
+  "source": {
+    "git": "https://github.com/苏秋东/XModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XModule/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module XModule {
+  umbrella header "XModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
