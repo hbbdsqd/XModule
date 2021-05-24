@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XModule_Example' do
+  pod 'XModule', :path => '../'
+
+  target 'XModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
