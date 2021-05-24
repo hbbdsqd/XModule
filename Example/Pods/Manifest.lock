@@ -1,16 +1,306 @@
 PODS:
-  - XModule (0.1.0)
+  - AFNetworking (4.0.0):
+    - AFNetworking/NSURLSession (= 4.0.0)
+    - AFNetworking/Reachability (= 4.0.0)
+    - AFNetworking/Security (= 4.0.0)
+    - AFNetworking/Serialization (= 4.0.0)
+    - AFNetworking/UIKit (= 4.0.0)
+  - AFNetworking/NSURLSession (4.0.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.0)
+  - AFNetworking/Security (4.0.0)
+  - AFNetworking/Serialization (4.0.0)
+  - AFNetworking/UIKit (4.0.0):
+    - AFNetworking/NSURLSession
+  - AlicloudHTTPDNS (1.19.2.7):
+    - AlicloudUT
+    - AlicloudUtils
+  - AlicloudUT (5.2.0.16):
+    - AlicloudUTDID
+  - AlicloudUTDID (1.5.0.94)
+  - AlicloudUtils (1.3.9):
+    - AlicloudUTDID
+  - Bugly (2.5.71)
+  - CRBoxInputView (1.2.1):
+    - Masonry
+  - CTMediator (32)
+  - FCUUID (1.3.1):
+    - UICKeyChainStore (~> 2.1.0)
+  - FDFullscreenPopGesture (1.1)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - IQKeyboardManager (6.0.6)
+  - JXCategoryView (1.5.8)
+  - Luban_iOS (1.0.6)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.2.2)
+  - MJRefresh (3.5.0)
+  - ReactiveCocoa (2.1.8):
+    - ReactiveCocoa/Core (= 2.1.8)
+    - ReactiveCocoa/no-arc (= 2.1.8)
+  - ReactiveCocoa/Core (2.1.8):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1.8)
+  - SDCycleScrollView (1.82):
+    - SDWebImage (>= 5.0.0)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+  - TFHpple (2.0.0)
+  - UICKeyChainStore (2.1.2)
+  - WebViewJavascriptBridge (6.0.3)
+  - WGKCategories (0.1.0):
+    - WGKCategories/CoreData (= 0.1.0)
+    - WGKCategories/CoreLocation (= 0.1.0)
+    - WGKCategories/Foundation (= 0.1.0)
+    - WGKCategories/MapKit (= 0.1.0)
+    - WGKCategories/QuartzCore (= 0.1.0)
+    - WGKCategories/UIKit (= 0.1.0)
+  - WGKCategories/CoreData (0.1.0):
+    - WGKCategories/CoreData/NSFetchRequest (= 0.1.0)
+    - WGKCategories/CoreData/NSManagedObject (= 0.1.0)
+    - WGKCategories/CoreData/NSManagedObjectContext (= 0.1.0)
+  - WGKCategories/CoreData/NSFetchRequest (0.1.0)
+  - WGKCategories/CoreData/NSManagedObject (0.1.0):
+    - WGKCategories/CoreData/NSManagedObjectContext
+  - WGKCategories/CoreData/NSManagedObjectContext (0.1.0):
+    - WGKCategories/CoreData/NSFetchRequest
+  - WGKCategories/CoreLocation (0.1.0):
+    - WGKCategories/CoreLocation/CLLocation (= 0.1.0)
+  - WGKCategories/CoreLocation/CLLocation (0.1.0)
+  - WGKCategories/Foundation (0.1.0):
+    - WGKCategories/Foundation/NSArray (= 0.1.0)
+    - WGKCategories/Foundation/NSBundle (= 0.1.0)
+    - WGKCategories/Foundation/NSData (= 0.1.0)
+    - WGKCategories/Foundation/NSDate (= 0.1.0)
+    - WGKCategories/Foundation/NSDateFormatter (= 0.1.0)
+    - WGKCategories/Foundation/NSDictionary (= 0.1.0)
+    - WGKCategories/Foundation/NSException (= 0.1.0)
+    - WGKCategories/Foundation/NSFileHandle (= 0.1.0)
+    - WGKCategories/Foundation/NSFileManager (= 0.1.0)
+    - WGKCategories/Foundation/NSHTTPCookieStorage (= 0.1.0)
+    - WGKCategories/Foundation/NSIndexPath (= 0.1.0)
+    - WGKCategories/Foundation/NSInvocation (= 0.1.0)
+    - WGKCategories/Foundation/NSNotificationCenter (= 0.1.0)
+    - WGKCategories/Foundation/NSNumber (= 0.1.0)
+    - WGKCategories/Foundation/NSObject (= 0.1.0)
+    - WGKCategories/Foundation/NSRunLoop (= 0.1.0)
+    - WGKCategories/Foundation/NSSet (= 0.1.0)
+    - WGKCategories/Foundation/NSString (= 0.1.0)
+    - WGKCategories/Foundation/NSTimer (= 0.1.0)
+    - WGKCategories/Foundation/NSURL (= 0.1.0)
+    - WGKCategories/Foundation/NSURLConnection (= 0.1.0)
+    - WGKCategories/Foundation/NSURLRequest (= 0.1.0)
+    - WGKCategories/Foundation/NSURLSession (= 0.1.0)
+    - WGKCategories/Foundation/NSUserDefaults (= 0.1.0)
+  - WGKCategories/Foundation/NSArray (0.1.0)
+  - WGKCategories/Foundation/NSBundle (0.1.0)
+  - WGKCategories/Foundation/NSData (0.1.0)
+  - WGKCategories/Foundation/NSDate (0.1.0)
+  - WGKCategories/Foundation/NSDateFormatter (0.1.0)
+  - WGKCategories/Foundation/NSDictionary (0.1.0)
+  - WGKCategories/Foundation/NSException (0.1.0)
+  - WGKCategories/Foundation/NSFileHandle (0.1.0)
+  - WGKCategories/Foundation/NSFileManager (0.1.0)
+  - WGKCategories/Foundation/NSHTTPCookieStorage (0.1.0)
+  - WGKCategories/Foundation/NSIndexPath (0.1.0)
+  - WGKCategories/Foundation/NSInvocation (0.1.0)
+  - WGKCategories/Foundation/NSNotificationCenter (0.1.0)
+  - WGKCategories/Foundation/NSNumber (0.1.0)
+  - WGKCategories/Foundation/NSObject (0.1.0)
+  - WGKCategories/Foundation/NSRunLoop (0.1.0)
+  - WGKCategories/Foundation/NSSet (0.1.0)
+  - WGKCategories/Foundation/NSString (0.1.0):
+    - WGKCategories/Foundation/NSData
+  - WGKCategories/Foundation/NSTimer (0.1.0)
+  - WGKCategories/Foundation/NSURL (0.1.0)
+  - WGKCategories/Foundation/NSURLConnection (0.1.0)
+  - WGKCategories/Foundation/NSURLRequest (0.1.0)
+  - WGKCategories/Foundation/NSURLSession (0.1.0)
+  - WGKCategories/Foundation/NSUserDefaults (0.1.0)
+  - WGKCategories/MapKit (0.1.0):
+    - WGKCategories/MapKit/MKMapView (= 0.1.0)
+  - WGKCategories/MapKit/MKMapView (0.1.0)
+  - WGKCategories/QuartzCore (0.1.0):
+    - WGKCategories/QuartzCore/CAAnimation (= 0.1.0)
+    - WGKCategories/QuartzCore/CALayer (= 0.1.0)
+    - WGKCategories/QuartzCore/CAMediaTimingFunction (= 0.1.0)
+    - WGKCategories/QuartzCore/CAShapeLayer (= 0.1.0)
+    - WGKCategories/QuartzCore/CATransaction (= 0.1.0)
+  - WGKCategories/QuartzCore/CAAnimation (0.1.0)
+  - WGKCategories/QuartzCore/CALayer (0.1.0)
+  - WGKCategories/QuartzCore/CAMediaTimingFunction (0.1.0)
+  - WGKCategories/QuartzCore/CAShapeLayer (0.1.0)
+  - WGKCategories/QuartzCore/CATransaction (0.1.0)
+  - WGKCategories/UIKit (0.1.0):
+    - WGKCategories/UIKit/UIAlertView (= 0.1.0)
+    - WGKCategories/UIKit/UIApplication (= 0.1.0)
+    - WGKCategories/UIKit/UIBarButtonItem (= 0.1.0)
+    - WGKCategories/UIKit/UIBezierPath (= 0.1.0)
+    - WGKCategories/UIKit/UIButton (= 0.1.0)
+    - WGKCategories/UIKit/UIColor (= 0.1.0)
+    - WGKCategories/UIKit/UIControl (= 0.1.0)
+    - WGKCategories/UIKit/UIDevice (= 0.1.0)
+    - WGKCategories/UIKit/UIFont (= 0.1.0)
+    - WGKCategories/UIKit/UIImage (= 0.1.0)
+    - WGKCategories/UIKit/UIImageView (= 0.1.0)
+    - WGKCategories/UIKit/UILable (= 0.1.0)
+    - WGKCategories/UIKit/UINavigationBar (= 0.1.0)
+    - WGKCategories/UIKit/UINavigationController (= 0.1.0)
+    - WGKCategories/UIKit/UINavigationItem (= 0.1.0)
+    - WGKCategories/UIKit/UIPopoverController (= 0.1.0)
+    - WGKCategories/UIKit/UIResponder (= 0.1.0)
+    - WGKCategories/UIKit/UIScreen (= 0.1.0)
+    - WGKCategories/UIKit/UIScrollView (= 0.1.0)
+    - WGKCategories/UIKit/UISearchBar (= 0.1.0)
+    - WGKCategories/UIKit/UISplitViewController (= 0.1.0)
+    - WGKCategories/UIKit/UITableView (= 0.1.0)
+    - WGKCategories/UIKit/UITableViewCell (= 0.1.0)
+    - WGKCategories/UIKit/UITextField (= 0.1.0)
+    - WGKCategories/UIKit/UITextView (= 0.1.0)
+    - WGKCategories/UIKit/UIView (= 0.1.0)
+    - WGKCategories/UIKit/UIViewController (= 0.1.0)
+    - WGKCategories/UIKit/UIWindow (= 0.1.0)
+  - WGKCategories/UIKit/UIAlertView (0.1.0)
+  - WGKCategories/UIKit/UIApplication (0.1.0)
+  - WGKCategories/UIKit/UIBarButtonItem (0.1.0)
+  - WGKCategories/UIKit/UIBezierPath (0.1.0)
+  - WGKCategories/UIKit/UIButton (0.1.0)
+  - WGKCategories/UIKit/UIColor (0.1.0)
+  - WGKCategories/UIKit/UIControl (0.1.0)
+  - WGKCategories/UIKit/UIDevice (0.1.0)
+  - WGKCategories/UIKit/UIFont (0.1.0)
+  - WGKCategories/UIKit/UIImage (0.1.0)
+  - WGKCategories/UIKit/UIImageView (0.1.0)
+  - WGKCategories/UIKit/UILable (0.1.0)
+  - WGKCategories/UIKit/UINavigationBar (0.1.0)
+  - WGKCategories/UIKit/UINavigationController (0.1.0)
+  - WGKCategories/UIKit/UINavigationItem (0.1.0)
+  - WGKCategories/UIKit/UIPopoverController (0.1.0)
+  - WGKCategories/UIKit/UIResponder (0.1.0)
+  - WGKCategories/UIKit/UIScreen (0.1.0)
+  - WGKCategories/UIKit/UIScrollView (0.1.0)
+  - WGKCategories/UIKit/UISearchBar (0.1.0)
+  - WGKCategories/UIKit/UISplitViewController (0.1.0)
+  - WGKCategories/UIKit/UITableView (0.1.0)
+  - WGKCategories/UIKit/UITableViewCell (0.1.0)
+  - WGKCategories/UIKit/UITextField (0.1.0)
+  - WGKCategories/UIKit/UITextView (0.1.0)
+  - WGKCategories/UIKit/UIView (0.1.0)
+  - WGKCategories/UIKit/UIViewController (0.1.0)
+  - WGKCategories/UIKit/UIWindow (0.1.0)
+  - XModule (0.1.0):
+    - AFNetworking (= 4.0.0)
+    - AlicloudHTTPDNS (= 1.19.2.7)
+    - Bugly (= 2.5.71)
+    - CRBoxInputView (= 1.2.1)
+    - CTMediator (= 32)
+    - FCUUID (= 1.3.1)
+    - FDFullscreenPopGesture (= 1.1)
+    - FMDB (= 2.7.5)
+    - IQKeyboardManager (= 6.0.6)
+    - JXCategoryView (= 1.5.8)
+    - Luban_iOS (= 1.0.6)
+    - Masonry (= 1.1.0)
+    - MBProgressHUD (= 1.2.0)
+    - MJExtension (= 3.2.2)
+    - MJRefresh (= 3.5.0)
+    - ReactiveCocoa (= 2.1.8)
+    - SDCycleScrollView (= 1.82)
+    - SDWebImage (= 5.10.0)
+    - TFHpple (= 2.0.0)
+    - WebViewJavascriptBridge (= 6.0.3)
+    - WGKCategories (= 0.1.0)
+    - YKWoodpecker (= 1.2.9)
+    - YYImage (= 1.0.4)
+    - YYImage/WebP
+    - YYModel (= 1.0.4)
+    - YYText (= 1.0.7)
+  - YKWoodpecker (1.2.9)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - YYImage/Core
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - XModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/aliyun/aliyun-specs.git:
+    - AlicloudHTTPDNS
+    - AlicloudUT
+    - AlicloudUTDID
+    - AlicloudUtils
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Bugly
+    - CRBoxInputView
+    - CTMediator
+    - FCUUID
+    - FDFullscreenPopGesture
+    - FMDB
+    - IQKeyboardManager
+    - JXCategoryView
+    - Luban_iOS
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - ReactiveCocoa
+    - SDCycleScrollView
+    - SDWebImage
+    - TFHpple
+    - UICKeyChainStore
+    - WebViewJavascriptBridge
+    - WGKCategories
+    - YKWoodpecker
+    - YYImage
+    - YYModel
+    - YYText
 
 EXTERNAL SOURCES:
   XModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XModule: 5d6b8f86c59775a047f868b70a9a4fbb7a489c49
+  AFNetworking: d9fdf484a3c723ec3c558a41cc5754c7e845ee77
+  AlicloudHTTPDNS: a6959251e3c561e296c7634b8ddff8d413323eed
+  AlicloudUT: 6d1cf30d57d096b7e9bb4b069dd0ba6ad59a3338
+  AlicloudUTDID: 7323c443dcdf9a73e2224dc6ce51703671d7a765
+  AlicloudUtils: 66e0ba6ece62d7dd05e9dd95674b2c7811624c2f
+  Bugly: fd066c75c4a0eca1440f9b6a84bd37d51bfc85ac
+  CRBoxInputView: d73a630e5326ee70487b4a56d09daebf915d82fd
+  CTMediator: 10f2c387be0ab2061b75b88c86f9903eedba1ce8
+  FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  IQKeyboardManager: 6b4ecd3e59cf55a26133d802d4678721d7f88499
+  JXCategoryView: 778a620f76070d6598fd8d7239991b8da8326170
+  Luban_iOS: 585915b852276bd69b0c6a45eae265d85a1cb07f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  ReactiveCocoa: f89f2e009a87951b50321bf9feb958823fcc617e
+  SDCycleScrollView: a0d74c3384caa72bdfc81470bdbc8c14b3e1fbcf
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+  TFHpple: a916fe0799eb30aa29b2670d14d5868cdd3a5b81
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  WGKCategories: 2e19f94c7a478a20f7c1a4daec1bef00fb4aa114
+  XModule: bc741cda59b3e36d5da8f2423254cb35d58d1498
+  YKWoodpecker: 5433b65498b2afe2a4adc20642f76ff57e161f2a
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: e95e432cbcca8aa57f3cf1d6bd148d1b43da327e
+PODFILE CHECKSUM: a1efb99e807e38284a361016108bf251e92796ea
 
 COCOAPODS: 1.10.1

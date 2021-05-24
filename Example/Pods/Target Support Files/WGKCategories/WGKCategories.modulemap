@@ -1,0 +1,6 @@
+framework module WGKCategories {
+  umbrella header "WGKCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

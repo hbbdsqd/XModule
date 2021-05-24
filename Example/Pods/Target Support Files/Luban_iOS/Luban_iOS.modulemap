@@ -1,0 +1,6 @@
+framework module Luban_iOS {
+  umbrella header "Luban_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

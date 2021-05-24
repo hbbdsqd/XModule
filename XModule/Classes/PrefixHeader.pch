@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  XModule
+//
+//  Created by 苏秋东 on 2020/5/11.
+//  Copyright © 2020 hbbdsqd@163.com. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+ 
+#import "XModule.h"
+
+#endif /* PrefixHeader_pch */

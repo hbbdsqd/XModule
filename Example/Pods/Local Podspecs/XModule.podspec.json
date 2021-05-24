@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of XModule.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/苏秋东/XModule",
+  "homepage": "https://github.com/hbbdsqd/XModule",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,102 @@
     "苏秋东": "suqiudong@fltrp.com"
   },
   "source": {
-    "git": "https://github.com/苏秋东/XModule.git",
+    "git": "https://github.com/hbbdsqd/XModule.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "XModule/Classes/**/*"
+  "source_files": "XModule/Classes/**/*",
+  "prefix_header_file": "XModule/Classes/PrefixHeader.pch",
+  "static_framework": true,
+  "resource_bundles": {
+    "XModule": [
+      "XModule/Assets/*"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "FMDB": [
+      "2.7.5"
+    ],
+    "FCUUID": [
+      "1.3.1"
+    ],
+    "CTMediator": [
+      "32"
+    ],
+    "WGKCategories": [
+      "0.1.0"
+    ],
+    "ReactiveCocoa": [
+      "2.1.8"
+    ],
+    "FDFullscreenPopGesture": [
+      "1.1"
+    ],
+    "Luban_iOS": [
+      "1.0.6"
+    ],
+    "SDWebImage": [
+      "5.10.0"
+    ],
+    "AFNetworking": [
+      "4.0.0"
+    ],
+    "AlicloudHTTPDNS": [
+      "1.19.2.7"
+    ],
+    "YYText": [
+      "1.0.7"
+    ],
+    "YYModel": [
+      "1.0.4"
+    ],
+    "YYImage": [
+      "1.0.4"
+    ],
+    "YYImage/WebP": [
+
+    ],
+    "MJRefresh": [
+      "3.5.0"
+    ],
+    "MJExtension": [
+      "3.2.2"
+    ],
+    "Masonry": [
+      "1.1.0"
+    ],
+    "MBProgressHUD": [
+      "1.2.0"
+    ],
+    "JXCategoryView": [
+      "1.5.8"
+    ],
+    "CRBoxInputView": [
+      "1.2.1"
+    ],
+    "IQKeyboardManager": [
+      "6.0.6"
+    ],
+    "SDCycleScrollView": [
+      "1.82"
+    ],
+    "TFHpple": [
+      "2.0.0"
+    ],
+    "WebViewJavascriptBridge": [
+      "6.0.3"
+    ],
+    "Bugly": [
+      "2.5.71"
+    ],
+    "YKWoodpecker": [
+      "1.2.9"
+    ]
+  }
 }
